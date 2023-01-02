@@ -12,7 +12,6 @@ def read_files():
         todo_es = filer.readlines()
     return todo_es
 
-
 def write_file(todo_arg, file_name="ToDo.txt"):
     """This function is to write todo items to todo.txt file"""
     with open('files/' + file_name + '', 'w') as file_w:
